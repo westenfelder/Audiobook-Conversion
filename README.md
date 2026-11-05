@@ -32,3 +32,6 @@ Execution Location: The script must be executed in a parent directory that conta
 Naming Convention: The subfolders must be named in a strict Author - Title format (e.g., J.R.R. Tolkien - The Hobbit). If the folder does not contain -, the script will skip it.
 
 Source Files: The subfolders should contain .mp3 files with appropriate track number metadata (the server-side exiftool command relies on track numbers to rename them sequentially).
+
+rm -rf ~/snap/vlc/common/.cache/vlc/art
+misc to clear vlc cover art^
